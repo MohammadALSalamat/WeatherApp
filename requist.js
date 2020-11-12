@@ -15,7 +15,7 @@ const key = '113e7608066a54df3f74dc48b3db620b';
 // make the API Dynamic //// Async and Await works to let query have time before it works
 
 const RequistCity = async function(city) {
-    const basedURL = "http://api.openweathermap.org/data/2.5/weather";
+    const basedURL = "https://api.openweathermap.org/data/2.5/weather";
     // get the city when the user put the name
     const Query = `?q=${city}&appid=${key}`
         //make fetch Call to get Information
