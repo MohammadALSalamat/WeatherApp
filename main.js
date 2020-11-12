@@ -27,7 +27,7 @@ const IsDayTime = (icon) => {
     // create a variable to save the collection of API 
 UpdateWeatherApp = (city) => {
     // icone src to make the image of day dynmic weather status 
-    const ImgSrc = `http://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`
+    const ImgSrc = `https://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`
         // get the city name and show it to user on App
     Cityname.textContent = city.name;
 
